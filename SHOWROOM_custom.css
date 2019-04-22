@@ -1,0 +1,357 @@
+/**********
+            真空管ドールズ エモちゃんver1(1920x1080向け)
+            真空管ドールズ＆エモちゃんが大好きな人向けに…
+***********/
+::selection {
+	background: #9999!important;
+}
+
+html {
+	margin-bottom: 0!important;
+}
+
+/****** ファンルーム ******/
+#fanRoom {
+	background: url("https://wx2.sinaimg.cn/woriginal/007voD0agy1fxy96ua5ksj31hc0u07wh.jpg") no-repeat top center!important;
+	background-size: cover!important;
+	background-attachment: fixed!important;
+	position: relative!important;
+}
+
+#fanRoom::before {
+	background: #0002!important;
+	position: absolute!important;
+	top: 0!important;
+	left: 0!important;
+	right: 0!important;
+	bottom: 0!important;
+	content: ' '!important;
+}
+
+#fanRoomCommentWrapper {
+	padding: 2.5rem 0!important;
+}
+
+#ownerOnlineStatus {
+	background-color: rgba(206, 163, 195, 0.8)!important;
+}
+
+#commentFormWrapper {
+	height: 37px!important;
+	background: rgba(206, 163, 195, 0.4)!important;
+	padding: 10px!important;
+}
+
+#commentFormWrapper #commentForm {
+	height: 37px!important;
+}
+
+#fanRoom .btn {
+	padding: 0!important;
+	border-radius: 0!important;
+}
+
+#commentFormWrapper #commentForm input, #commentFormWrapper #commentForm textarea {
+	border-radius: 0!important;
+}
+
+.comment-block-right .name {
+	color: #ff00af!important;
+}
+
+.user-comment, .comment-block-owner-contents, .owner-online-status-time-line {
+	color: #efefef!important;
+	background: rgba(212, 175, 202, 0.7)!important;
+}
+
+.user-comment:after {
+	border-right-color: rgba(212, 175, 202, 0.7)!important;
+}
+
+.post-time {
+	color: #eee!important;
+}
+
+/******* 配信ページ *******/
+.room-inner {
+	height: 100vh!important;
+	background: url("https://wx2.sinaimg.cn/woriginal/007voD0agy1fxy96ua5ksj31hc0u07wh.jpg") no-repeat top center!important;
+	background-size: cover!important;
+	background-attachment: fixed!important;
+	position: relative!important;
+}
+
+.room-inner::before {
+	background: #0002!important;
+	position: absolute!important;
+	top: 0!important;
+	left: 0!important;
+	right: 0!important;
+	bottom: 0!important;
+	content: ' '!important;
+}
+
+.room-header {
+	background-color: rgba(206, 163, 195, 0.7)!important;
+}
+
+.room-video-volume2 {
+	background-color: rgba(206, 163, 195, 0.7)!important;
+}
+
+#gift-log {
+	right: auto!important;
+	top: 50px!important;
+	width: 463px!important;
+	height: 894px!important;
+	left: 0!important;
+	z-index: 2!important;
+}
+
+#gift-log .gift-user-name {
+	color: #ff00af!important;
+}
+
+#gift-log #gift-log-list {
+	height: 845px!important;
+	margin-bottom: 0!important;
+}
+
+#gift-area {
+	z-index: 3!important;
+}
+
+#comment-log {
+	right: 0!important;
+	top: 50px!important;
+	width: 560px!important;
+	height: 813px!important;
+	left: auto!important;
+	z-index: 1!important;
+}
+
+#comment-log .comment-log-name {
+	color: #ff00af!important;
+}
+
+#comment-log .new-comment-button {
+	background-color: #d9b0da!important;
+}
+
+#comment-log #room-comment-log-list {
+	height: 760px!important;
+	margin-bottom: 0!important;
+}
+
+#event-dialog {
+	top: 86px!important;
+	left: 343px!important;
+	z-index: 99!important;
+}
+
+#js-room-onlive-wrapper {
+	display: none!important;
+}
+
+#js-room-event-wrapper {
+	display: block!important;
+}
+
+#gift-log, #comment-log, #event-dialog, .gift-area, .log-area .title {
+	cursor: default!important;
+}
+
+.comment-form {
+	background-color: rgba(255, 231, 244, 0.6)!important;
+}
+
+.gift-area {	/*** ギフトウィンドウ ***/
+	left: 464px!important;
+	top: 794px!important;
+	height: 150px!important;
+	color: #333!important;
+}
+
+.gift-area .gift-gauge-area, .gift-area .gift-gauge {
+	height: 25px!important;
+}
+
+.gift-area .gift-gauge {
+	background: rgba(206, 163, 195, 0.7)!important;
+}
+
+.gift-area .selected-gift-area {
+	height: 20px!important;
+}
+
+.gift-area .gift-gauge-back {
+	height: 20px!important;
+}
+
+.gift-area #room-gift-item-wrapper {
+	height: 60px!important;
+}
+
+.gift-area #use-point-mode {
+	top: 8px!important;
+}
+
+.l-log-area, .event-dialog, .gift-area {
+	color: #333!important;
+	background-color: rgba(255, 231, 244, 0.6)!important;
+	border: solid 1px #000!important;
+	border-radius: 2px!important;
+}
+
+.log-area .title {
+	border-bottom: solid 1px #000!important;
+}
+
+.event-dialog .event .next-rank, .event-dialog .support .support-remaining, .event-dialog .support .support-achieved {
+	color: #ff00af!important;
+}
+
+.event-dialog .support .support-achieved {
+	font-weight: 500!important;
+}
+
+.log-area ul::-webkit-scrollbar-thumb {
+	background: #aaa!important;
+}
+
+.l-telop {
+	top: 63px!important;
+	z-index: 9999!important;
+}
+
+.l-room-video {
+	z-index: 9998!important;
+}
+
+.room-telop {
+	background: rgba(206, 163, 195, 0.7)!important;
+}
+
+.l-room-avatar {
+	/*** 壇上のアバター配置 ***/
+	width: 1280px!important;
+	height: 822px!important;
+	margin: 0 auto!important;
+	top: 30%!important;
+	bottom: 0!important;
+	left: 0!important;
+	right: 0!important;
+}
+
+#js-room-head-other-select-list .head-select-list li.selected, #js-room-head-other-select-list.head-select-list li:hover:not(.head-list-selected), #js-room-head-share-select-list .head-select-list li.selected, #js-room-head-share-select-list.head-select-list li:hover:not(.head-list-selected) {
+	background: rgba(206, 163, 195, 0.7)!important;
+}
+
+/***** ルーム内イベント詳細 *****/
+.globalDialogBack {
+	display: none!important;
+}
+
+.event-detail-dialog {
+	width: 100vw!important;
+	z-index: 10000!important;
+	overflow: hidden!important;
+}
+
+div.content {
+	width: 100vw!important;
+	background: #0008!important;
+}
+
+#js-genre-section-1, #js-genre-section-2, #js-genre-section-3, #js-genre-section-4, #js-genre-section-5, #js-genre-section-6, #js-genre-section-7 {
+	height: calc(100vh - 52px)!important;
+	overflow-y: scroll!important;
+}
+
+.mb-b4 {
+	margin-bottom: 8px!important;
+}
+
+.live-info-block li.info {
+	width: 260px!important;
+	padding: 5px 10px!important;
+}
+
+
+
+/***** Chrome拡張機能 *****/
+
+/*** すこすこツール ***
+***************************************/
+#config_box, #save_box {
+	background: rgba(158, 101, 144, 0.4)!important;
+}
+
+#config_button, #plus_area {
+	top: calc(100vh - 54px)!important;
+	bottom: 0!important;
+}
+
+#config_button, #plus_area, .ui-draggable-handle {
+	cursor: default!important;
+}
+
+#config_button {
+	left: 6px!important;
+}
+
+#plus_area {
+	left: 22px!important;
+}
+
+.plus_button {
+	opacity: 0.6!important;
+}
+
+/*** 解除時間ウィンドウの配置 ***/
+#get_log {
+	padding: 0!important;
+	background: transparent!important;
+	z-index: 1!important;
+	top: 712px!important;
+	left: 212px!important;
+	cursor: default!important;
+}
+
+/*** 星&種 解除時刻 ***/
+#star_get_log, #seed_get_log {
+	background: rgba(206, 163, 195, 0.7)!important;
+}
+
+.re_get_log_c, .re_get_log_p {
+	font-size: 11px!important;
+}
+
+.re_get_log_c {
+	color: #fff!important;
+}
+
+.re_get_log_p {
+	color: #4b0567!important;
+}
+
+.ui-resizable-handle {
+	width: 0!important;
+}
+
+/*** 星解除ポップアップ ***/
+/*
+#re_get_pop_box{
+  margin:0 auto!important;
+  padding:0!important;
+  height:21px!important;
+  background:transparent!important;
+  font-size:22px!important;
+  line-height:21px;
+  position:fixed;
+  top:0;
+  left:0!important;
+  right:0!important;
+  z-index:15500!important;
+}
+*/
