@@ -7,7 +7,7 @@ Google Chromeの拡張機能「<a href="https://chrome.google.com/webstore/detai
 また、小さいタスクバーでない場合一部見栄えが崩れる場合があります。<br>
 
 ---今後の改善予定---<br>
-・Chromeの拡張機能「<a href="https://chrome.google.com/webstore/detail/showroom-%E3%81%99%E3%81%93%E3%81%99%E3%81%93%E3%83%84%E3%83%BC%E3%83%AB/ohfkmalmidmhailhaiifeplheagoopap?utm_source=chrome-ntp-icon" alt="SHOWROOM すこすこツール">すこすこツール</a>」に存在している全画面機能が使用不能になっているのを修正<br>
+・Chromeの拡張機能「<a href="https://chrome.google.com/webstore/detail/showroom-%E3%81%99%E3%81%93%E3%81%99%E3%81%93%E3%83%84%E3%83%BC%E3%83%AB/ohfkmalmidmhailhaiifeplheagoopap?utm_source=chrome-ntp-icon" alt="SHOWROOM すこすこツール" target="_blank">すこすこツール</a>」に存在している全画面機能が使用不能になっているのを修正<br>
 ・イベントウィンドウがない時のborderのみ見えてしまうのを修正<br>
 ・1366x768向けにもう少し広く見えるようにナビバーを細くして見やすくする<br>
 ・一つのCSSで見栄えが変わるようにする(レスポンシブ化)<br>
