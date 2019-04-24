@@ -1,6 +1,7 @@
 # SHOWROOM_custom.css
 Google Chromeの拡張機能「<a href="https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb" alt="User CSS">User CSS</a>」をインストールして、SHOWROOMページ（SHOWROOM内ならどこのページでもいいです）で「User CSS」を開き、コードを貼り付けるとそのまま使えます。<br>
 尚、ソースコードは公開用に多少綺麗にはしましたが、雑でやりかけの部分もあるので少しずつアップデートしていく予定です。<br>
+コメントに関しては後々書き足します。<br>
 一応、javascriptによる動的動作でCSSが当たらなくなるのを防ぐため、ほぼ全てに「!important」をつけて対策しています。<br>
 ※全画面表示は想定していません。通常の表示で使う事を想定して作っているので全画面表示で使っている方はおすすめしません。<br>
 
